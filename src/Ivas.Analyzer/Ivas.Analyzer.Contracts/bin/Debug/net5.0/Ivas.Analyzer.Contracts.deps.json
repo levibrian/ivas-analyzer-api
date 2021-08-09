@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ivas.Analyzer.Contracts/1.0.0": {
+        "runtime": {
+          "Ivas.Analyzer.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ivas.Analyzer.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

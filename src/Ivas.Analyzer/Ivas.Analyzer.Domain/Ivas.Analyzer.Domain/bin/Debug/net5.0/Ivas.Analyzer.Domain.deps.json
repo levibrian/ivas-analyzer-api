@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ivas.Analyzer.Domain/1.0.0": {
+        "runtime": {
+          "Ivas.Analyzer.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ivas.Analyzer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

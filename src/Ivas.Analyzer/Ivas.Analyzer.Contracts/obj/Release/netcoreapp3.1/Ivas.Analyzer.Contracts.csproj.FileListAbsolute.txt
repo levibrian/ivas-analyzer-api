@@ -1,0 +1,9 @@
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/bin/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.deps.json
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/bin/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.dll
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/bin/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.pdb
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.csproj.AssemblyReference.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.AssemblyInfoInputs.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.AssemblyInfo.cs
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.csproj.CoreCompileInputs.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.dll
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Release/netcoreapp3.1/Ivas.Analyzer.Contracts.pdb

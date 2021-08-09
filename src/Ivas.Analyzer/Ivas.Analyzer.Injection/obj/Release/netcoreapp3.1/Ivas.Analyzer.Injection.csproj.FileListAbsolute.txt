@@ -1,0 +1,9 @@
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/bin/Release/netcoreapp3.1/Ivas.Analyzer.Injection.deps.json
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/bin/Release/netcoreapp3.1/Ivas.Analyzer.Injection.dll
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/bin/Release/netcoreapp3.1/Ivas.Analyzer.Injection.pdb
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/obj/Release/netcoreapp3.1/Ivas.Analyzer.Injection.csproj.AssemblyReference.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/obj/Release/netcoreapp3.1/Ivas.Analyzer.Injection.AssemblyInfoInputs.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/obj/Release/netcoreapp3.1/Ivas.Analyzer.Injection.AssemblyInfo.cs
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/obj/Release/netcoreapp3.1/Ivas.Analyzer.Injection.csproj.CoreCompileInputs.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/obj/Release/netcoreapp3.1/Ivas.Analyzer.Injection.dll
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/obj/Release/netcoreapp3.1/Ivas.Analyzer.Injection.pdb

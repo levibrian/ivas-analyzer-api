@@ -1,0 +1,12 @@
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.deps.json
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.dll
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.pdb
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.dll
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.pdb
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.csproj.AssemblyReference.cache
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.AssemblyInfoInputs.cache
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.AssemblyInfo.cs
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.csproj.CoreCompileInputs.cache
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.csproj.CopyComplete
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.dll
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Networking.pdb

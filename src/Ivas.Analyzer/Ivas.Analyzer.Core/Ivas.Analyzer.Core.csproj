@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dtos\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Services\" />
+    <None Remove="Interfaces\Services\" />
+    <None Remove="Dtos\Base\" />
+    <None Remove="Dtos\Analysis\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Dtos\Base\" />
+    <Folder Include="Dtos\Analysis\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj" />
+    <ProjectReference Include="..\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain.csproj" />
+    <ProjectReference Include="..\Ivas.Analyzer.Network\Ivas.Analyzer.Networking.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+</Project>

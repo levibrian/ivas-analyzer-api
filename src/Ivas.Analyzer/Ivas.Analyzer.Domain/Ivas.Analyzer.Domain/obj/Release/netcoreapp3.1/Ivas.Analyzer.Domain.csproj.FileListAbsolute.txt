@@ -1,0 +1,9 @@
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Release/netcoreapp3.1/Ivas.Analyzer.Domain.deps.json
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Release/netcoreapp3.1/Ivas.Analyzer.Domain.dll
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Release/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Release/netcoreapp3.1/Ivas.Analyzer.Domain.csproj.AssemblyReference.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Release/netcoreapp3.1/Ivas.Analyzer.Domain.AssemblyInfoInputs.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Release/netcoreapp3.1/Ivas.Analyzer.Domain.AssemblyInfo.cs
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Release/netcoreapp3.1/Ivas.Analyzer.Domain.csproj.CoreCompileInputs.cache
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Release/netcoreapp3.1/Ivas.Analyzer.Domain.dll
+/Users/levibrian/Personal/repos/ivas/ivas-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Release/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
