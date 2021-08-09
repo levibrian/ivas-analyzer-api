@@ -7,3 +7,11 @@
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.csproj.CoreCompileInputs.cache
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.pdb
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.deps.json
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.dll
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.pdb
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.AssemblyInfoInputs.cache
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.AssemblyInfo.cs
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.csproj.CoreCompileInputs.cache
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.dll
+D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.pdb

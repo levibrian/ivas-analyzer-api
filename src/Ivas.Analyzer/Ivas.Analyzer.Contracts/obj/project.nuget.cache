@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "15hZNbdLAw6ceIsgrErpgbe8gtDfsMBqikXynw+6MtWSotKAUIA1NSWSimFyc9LYZj50qO5Bu/Ol6TRQJZxSPw==",
+  "dgSpecHash": "9ORjAGHE6gu00rclfmoPw03nw0y/iMqiDL7vBE+61qV/iqPmurout0SR6yQ+0U+/rr45LpdxV1EsWJoIZAE5LQ==",
   "success": true,
-  "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj",
+  "projectFilePath": "D:\\Users\\blevi\\Documents\\repos\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Contracts\\Ivas.Analyzer.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

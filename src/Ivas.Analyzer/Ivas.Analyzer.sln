@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{42142962-50CB-4A7A-A05E-8A8282525287}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{62F3E732-27BC-469E-8D30-D7887203DC92}"
@@ -12,30 +15,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Common", "5. Common", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6. Injection", "6. Injection", "{C9694D75-123B-4F3A-B90F-04B9A58AA479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Core", "Ivas.Analyzer.Core\Ivas.Analyzer.Core.csproj", "{D249705F-B6F4-448C-9731-5126F977031F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Core", "Ivas.Analyzer.Core\Ivas.Analyzer.Core.csproj", "{D249705F-B6F4-448C-9731-5126F977031F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Networking", "Ivas.Analyzer.Network\Ivas.Analyzer.Networking.csproj", "{337BE121-A996-4A41-9AD9-88F2DDF69678}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Networking", "Ivas.Analyzer.Network\Ivas.Analyzer.Networking.csproj", "{337BE121-A996-4A41-9AD9-88F2DDF69678}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Domain", "Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain.csproj", "{85A4EEC1-8932-457A-BA02-AC8A5D89FAEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Domain", "Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain.csproj", "{85A4EEC1-8932-457A-BA02-AC8A5D89FAEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Contracts", "Ivas.Analyzer.Contracts\Ivas.Analyzer.Contracts.csproj", "{68EB935D-B5D8-4048-BC18-E2B1DFEBE349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Contracts", "Ivas.Analyzer.Contracts\Ivas.Analyzer.Contracts.csproj", "{68EB935D-B5D8-4048-BC18-E2B1DFEBE349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Common", "Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj", "{143CC871-13EB-42D4-B579-2C556C685E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Common", "Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj", "{143CC871-13EB-42D4-B579-2C556C685E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Injection", "Ivas.Analyzer.Injection\Ivas.Analyzer.Injection.csproj", "{B0705E2F-DAC5-4258-B2E3-343D654A525D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Injection", "Ivas.Analyzer.Injection\Ivas.Analyzer.Injection.csproj", "{B0705E2F-DAC5-4258-B2E3-343D654A525D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Api", "..\..\..\Ivas\Ivas.Analyzer.Api\Ivas.Analyzer.Api.csproj", "{5B3A3A62-B9AD-4EE9-87F3-F42EEEE303AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D249705F-B6F4-448C-9731-5126F977031F} = {62F3E732-27BC-469E-8D30-D7887203DC92}
-		{337BE121-A996-4A41-9AD9-88F2DDF69678} = {62F3E732-27BC-469E-8D30-D7887203DC92}
-		{85A4EEC1-8932-457A-BA02-AC8A5D89FAEC} = {F53AA190-1C36-4D4C-9EDE-B9C8164C4AAD}
-		{68EB935D-B5D8-4048-BC18-E2B1DFEBE349} = {F53AA190-1C36-4D4C-9EDE-B9C8164C4AAD}
-		{143CC871-13EB-42D4-B579-2C556C685E5D} = {EE2783DF-9F9D-4274-AB27-562B19031DE7}
-		{B0705E2F-DAC5-4258-B2E3-343D654A525D} = {C9694D75-123B-4F3A-B90F-04B9A58AA479}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D249705F-B6F4-448C-9731-5126F977031F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -62,5 +59,24 @@ Global
 		{B0705E2F-DAC5-4258-B2E3-343D654A525D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0705E2F-DAC5-4258-B2E3-343D654A525D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0705E2F-DAC5-4258-B2E3-343D654A525D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3A3A62-B9AD-4EE9-87F3-F42EEEE303AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3A3A62-B9AD-4EE9-87F3-F42EEEE303AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3A3A62-B9AD-4EE9-87F3-F42EEEE303AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3A3A62-B9AD-4EE9-87F3-F42EEEE303AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D249705F-B6F4-448C-9731-5126F977031F} = {62F3E732-27BC-469E-8D30-D7887203DC92}
+		{337BE121-A996-4A41-9AD9-88F2DDF69678} = {62F3E732-27BC-469E-8D30-D7887203DC92}
+		{85A4EEC1-8932-457A-BA02-AC8A5D89FAEC} = {F53AA190-1C36-4D4C-9EDE-B9C8164C4AAD}
+		{68EB935D-B5D8-4048-BC18-E2B1DFEBE349} = {F53AA190-1C36-4D4C-9EDE-B9C8164C4AAD}
+		{143CC871-13EB-42D4-B579-2C556C685E5D} = {EE2783DF-9F9D-4274-AB27-562B19031DE7}
+		{B0705E2F-DAC5-4258-B2E3-343D654A525D} = {C9694D75-123B-4F3A-B90F-04B9A58AA479}
+		{5B3A3A62-B9AD-4EE9-87F3-F42EEEE303AD} = {42142962-50CB-4A7A-A05E-8A8282525287}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EBF4580-FE2E-47BC-B66C-010C537A0FED}
 	EndGlobalSection
 EndGlobal

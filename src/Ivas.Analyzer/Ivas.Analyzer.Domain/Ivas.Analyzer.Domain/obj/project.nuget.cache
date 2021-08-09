@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q684XMOeJReHdcqRVlObxD5NC+Ib9J4r5Nw1h33nF+ngIdVr26uRBkBJhr6AjaBDuNTh+wVEWZiXfI9CWcyFYw==",
+  "dgSpecHash": "qjJZHAEebwkzyGefsEI2O9q8k2j4cSKRybYuDTTglNqw0ygA4o3ZvOxekgTBoN1ygD5KVwp3Hhnn4qJPv3vWrA==",
   "success": true,
-  "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj",
+  "projectFilePath": "D:\\Users\\blevi\\Documents\\repos\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Domain\\Ivas.Analyzer.Domain\\Ivas.Analyzer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
