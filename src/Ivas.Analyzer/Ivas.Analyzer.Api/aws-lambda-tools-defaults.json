@@ -5,7 +5,7 @@
     "dotnet lambda help",
     "All the command line options for the Lambda command can be specified in this file."
   ],
-  "profile": "dev-bdrp",
+  "profile": "default",
   "region": "eu-west-1",
   "configuration": "Release",
   "framework": "netcoreapp3.1",

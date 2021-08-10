@@ -6,6 +6,7 @@ using AutoMapper;
 using Ivas.Analyzer.Common.Enums;
 using Ivas.Analyzer.Common.Exceptions;
 using Ivas.Analyzer.Contracts.Polygon;
+using Ivas.Analyzer.Contracts.Requests;
 using Ivas.Analyzer.Core.Dtos.Analysis;
 using Ivas.Analyzer.Core.Interfaces.Services;
 using Ivas.Analyzer.Domain.Entities;
@@ -25,9 +26,9 @@ namespace Ivas.Analyzer.Core.Services
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<RoicDto>> CalculateRoic(string ticker)
+        public async Task<IEnumerable<RoicDto>> CalculateRoic(FundamentalAnalysisRequest request)
         {
-            var stockData = (await _financialsBroker.GetYearlyByTicker(ticker)).ToList();
+            var stockData = (await _financialsBroker.GetYearlyByTicker(request.Ticker)).ToList();
 
             if (!stockData.Any())
             {

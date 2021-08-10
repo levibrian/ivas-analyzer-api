@@ -1,3 +1,12 @@
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.deps.json
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.dll
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.csprojAssemblyReference.cache
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.AssemblyInfoInputs.cache
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.AssemblyInfo.cs
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.csproj.CoreCompileInputs.cache
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.dll
+D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.deps.json
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
@@ -7,12 +16,3 @@
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.csproj.CoreCompileInputs.cache
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.deps.json
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.dll
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.pdb
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.csprojAssemblyReference.cache
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.AssemblyInfoInputs.cache
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.AssemblyInfo.cs
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.csproj.CoreCompileInputs.cache
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.dll
-D:\Users\blevi\Documents\repos\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.pdb

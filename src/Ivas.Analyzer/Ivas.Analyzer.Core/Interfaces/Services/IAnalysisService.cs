@@ -1,6 +1,6 @@
 namespace Ivas.Analyzer.Core.Interfaces.Services
 {
-    public interface IDividendService
+    public interface IAnalysisService
     {
         
     }

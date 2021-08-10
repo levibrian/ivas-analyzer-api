@@ -13,12 +13,9 @@
     <None Remove="Dtos\Analysis\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Dtos\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
     <Folder Include="Interfaces\Services\" />
-    <Folder Include="Dtos\Base\" />
-    <Folder Include="Dtos\Analysis\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj" />

@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "NQnKszHulqFOMebldrDWOcHM8i2EfmjzqGmC2I6PtKpDb3DUI6pIWXDlx/vzn59pMZA590tmKFuaxKGThEWmTA==",
+  "dgSpecHash": "Z9lpkiGeJjF85i22fN9euHMSzMzJCZnWiPWVS6cMer37LFWOFsHDok2rBdsq3I0JNA9D5k3Wf2NIu4vNO89GNg==",
   "success": true,
-  "projectFilePath": "D:\\Users\\blevi\\Documents\\repos\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Injection\\Ivas.Analyzer.Injection.csproj",
+  "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Injection/Ivas.Analyzer.Injection.csproj",
   "expectedPackageFiles": [
-    "D:\\Users\\blevi\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0-preview.6.21352.12\\microsoft.extensions.configuration.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0-preview.6.21352.12\\microsoft.extensions.configuration.abstractions.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0-preview.6.21352.12\\microsoft.extensions.dependencyinjection.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0-preview.6.21352.12\\microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.6.21352.12\\microsoft.extensions.primitives.6.0.0-preview.6.21352.12.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
-    "D:\\Users\\blevi\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.6.21352.12\\system.runtime.compilerservices.unsafe.6.0.0-preview.6.21352.12.nupkg.sha512"
+    "/Users/levibrian/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.extensions.configuration/6.0.0-preview.6.21352.12/microsoft.extensions.configuration.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0-preview.6.21352.12/microsoft.extensions.configuration.abstractions.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0-preview.6.21352.12/microsoft.extensions.dependencyinjection.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0-preview.6.21352.12/microsoft.extensions.dependencyinjection.abstractions.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/microsoft.extensions.primitives/6.0.0-preview.6.21352.12/microsoft.extensions.primitives.6.0.0-preview.6.21352.12.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
+    "/Users/levibrian/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0-preview.6.21352.12/system.runtime.compilerservices.unsafe.6.0.0-preview.6.21352.12.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,8 +4,12 @@ using Ivas.Analyzer.Domain.Base;
 
 namespace Ivas.Analyzer.Domain.Entities
 {
-    public class Roic : Entity
+    public class Roic : DomainEntity
     {
+        public Roic()
+        {
+        }
+        
         public Roic(DateTime calendarDate, long freeCashFlow, long longTermDebt, long shareholdersEquity)
         {
             CalendarDate = calendarDate;
