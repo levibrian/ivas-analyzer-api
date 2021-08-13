@@ -10,7 +10,7 @@ namespace Ivas.Analyzer.Networking.Brokers
 {
     public class FinancialsBroker : PolygonBroker, IFinancialsBroker
     {
-        public async Task<IEnumerable<FinancialsYearly>> GetYearlyByTicker(string ticker)
+        public async Task<IEnumerable<FinancialsYearly>> GetByTicker(string ticker)
         {
             var results = await base.Get<FinancialsYearly>(PolygonApiRoutes.GetFinancialsApiRouteByType(ticker, FinancialsTypes.Y));
 

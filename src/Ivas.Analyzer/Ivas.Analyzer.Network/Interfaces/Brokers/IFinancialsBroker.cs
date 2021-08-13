@@ -6,6 +6,6 @@ namespace Ivas.Analyzer.Networking.Interfaces.Brokers
 {
     public interface IFinancialsBroker
     {
-        Task<IEnumerable<FinancialsYearly>> GetYearlyByTicker(string ticker);
+        Task<IEnumerable<FinancialsYearly>> GetByTicker(string ticker);
     }
 }

@@ -10,26 +10,18 @@ namespace Ivas.Analyzer.Api.Controllers
     public class AnalysisController : ControllerBase
     {
         private readonly IAnalysisService _analysisService;
-        private readonly IRoicService _roicService;
 
-        public AnalysisController(IAnalysisService analysisService, IRoicService roicService)
+        public AnalysisController(IAnalysisService analysisService)
         {
             _analysisService = analysisService ?? throw new ArgumentNullException(nameof(analysisService));
-            _roicService = roicService ?? throw new ArgumentNullException(nameof(roicService));
         }
 
-        [HttpGet("full")]
-        public async Task<IActionResult> GetFull([FromBody] FundamentalAnalysisRequest request)
+        [HttpGet]
+        public async Task<IActionResult> Get([FromBody] FundamentalAnalysisRequest request)
         {
-            return Ok();
-        }
-        
-        [HttpGet("roic")]
-        public async Task<IActionResult> GetRoic([FromBody] FundamentalAnalysisRequest request)
-        {
-            var roicAnalysis = await _roicService.CalculateRoic(request);
-
-            return Ok(roicAnalysis);
+            var fundamentalAnalysis = await _analysisService.GetFundamentalAnalysis(request);
+            
+            return Ok(fundamentalAnalysis);
         }
     }
 }
