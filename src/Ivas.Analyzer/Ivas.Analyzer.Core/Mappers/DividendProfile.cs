@@ -1,7 +1,7 @@
 using AutoMapper;
 using Ivas.Analyzer.Contracts.Dtos.Analysis;
 using Ivas.Analyzer.Contracts.Polygon;
-using Ivas.Analyzer.Domain.Entities;
+using Ivas.Analyzer.Model.Entities;
 
 namespace Ivas.Analyzer.Core.Mappers
 {
@@ -9,7 +9,7 @@ namespace Ivas.Analyzer.Core.Mappers
     {
         public DividendProfile()
         {
-            CreateMap<FinancialsYearly, Dividend>()
+            CreateMap<FinancialsYearly, DividendEntity>()
                 .ForMember(dest => dest.CalendarDate, 
                     opts => opts.MapFrom(src => src.CalendarDate))
                 .ForMember(dest => dest.NetIncome, 
@@ -26,16 +26,17 @@ namespace Ivas.Analyzer.Core.Mappers
                     opts => opts.MapFrom(src => src.DebtUSD))
                 .ForMember(dest => dest.CashAndEquivalents, 
                     opts => opts.MapFrom(src => src.CashAndEquivalentsUSD))
-                .ForMember(dest => dest.EBITDA, 
+                .ForMember(dest => dest.Ebitda, 
                     opts => opts.MapFrom(src => src.EarningsBeforelongerestTaxesDepreciationAmortizationUSD));
 
-            CreateMap<Dividend, DividendDto>()
+            CreateMap<DividendEntity, DividendDto>()
                 .ForMember(dest => dest.DividendCoverageRatio,
                     opts => opts.MapFrom(src => src.CalculateDividendCoverageRatio()))
                 .ForMember(dest => dest.DividendPayoutRatio,
                     opts => opts.MapFrom(src => src.CalculateDividendPayoutRatio()))
                 .ForMember(dest => dest.NetDebtToEbitda,
-                    opts => opts.MapFrom(src => src.CalculateNetDebtToEbitda()));
+                    opts => opts.MapFrom(src => src.CalculateNetDebtToEbitda()))
+                .ReverseMap();
         }
     }
 }

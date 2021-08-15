@@ -1,7 +1,7 @@
 using AutoMapper;
 using Ivas.Analyzer.Contracts.Dtos.Analysis;
 using Ivas.Analyzer.Contracts.Polygon;
-using Ivas.Analyzer.Domain.Entities;
+using Ivas.Analyzer.Model.Entities;
 
 namespace Ivas.Analyzer.Core.Mappers
 {
@@ -9,12 +9,14 @@ namespace Ivas.Analyzer.Core.Mappers
     {
         public FundamentalAnalysisProfile()
         {
-            CreateMap<FinancialsYearly, FundamentalAnalysis>()
+            CreateMap<FinancialsYearly, FundamentalAnalysisEntity>()
                 .ForMember(dest => dest.Year, opts => opts.MapFrom(src => src.CalendarDate))
                 .ForMember(dest => dest.PastPerformance, opts => opts.MapFrom(src => src))
+                .ForMember(dest => dest.FinancialHealth, opts => opts.MapFrom(src => src))
                 .ForMember(dest => dest.Dividend, opts => opts.MapFrom(src => src));
 
-            CreateMap<FundamentalAnalysis, FundamentalAnalysisDto>();
+            CreateMap<FundamentalAnalysisEntity, FundamentalAnalysisDto>()
+                .ReverseMap();
         }
     }
 }

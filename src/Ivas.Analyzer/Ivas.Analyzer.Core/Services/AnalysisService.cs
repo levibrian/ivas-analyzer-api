@@ -9,7 +9,8 @@ using Ivas.Analyzer.Contracts.Dtos.Analysis;
 using Ivas.Analyzer.Contracts.Polygon;
 using Ivas.Analyzer.Contracts.Requests;
 using Ivas.Analyzer.Core.Interfaces.Services;
-using Ivas.Analyzer.Domain.Entities;
+using Ivas.Analyzer.Domain.Objects;
+using Ivas.Analyzer.Model.Entities;
 using Ivas.Analyzer.Networking.Interfaces.Brokers;
 
 namespace Ivas.Analyzer.Core.Services
@@ -26,22 +27,37 @@ namespace Ivas.Analyzer.Core.Services
             _mapper = mapper;
         }
 
+        public async Task<FinancialHealthDto> GetSummary(FundamentalAnalysisRequest request)
+        {
+            var stockFinancials = await GetFinancials(request);
 
+            var financialHealth = new FinancialHealth(stockFinancials.Select(x => x.FinancialHealth));
+
+            var financialHealthDto = _mapper.Map<FinancialHealth, FinancialHealthDto>(financialHealth);
+            
+            return financialHealthDto;
+        }
+        
         public async Task<IEnumerable<FundamentalAnalysisDto>> GetFundamentalAnalysis(FundamentalAnalysisRequest request)
         {
+            var domainEntities = await GetFinancials(request);
+
+            return _mapper.Map<IEnumerable<FundamentalAnalysisEntity>, IEnumerable<FundamentalAnalysisDto>>(domainEntities);
+        }
+
+        // This should be moved to a repository.
+        public async Task<IEnumerable<FundamentalAnalysisEntity>> GetFinancials(FundamentalAnalysisRequest request)
+        {
             var stockData = (await _financialsBroker.GetByTicker(request.Ticker))
-                .Where(item => Convert.ToDateTime(item.CalendarDate).Year >= request.FromDate.Year)
+                .Take(request.HistoricalYears)
                 .ToList();
 
             if (!stockData.Any())
             {
                 throw new DomainException(ErrorMessages.FinancialsNotFound);
             }
-
-            var domainEntities =
-                _mapper.Map<IEnumerable<FinancialsYearly>, IEnumerable<FundamentalAnalysis>>(stockData);
-
-            return _mapper.Map<IEnumerable<FundamentalAnalysis>, IEnumerable<FundamentalAnalysisDto>>(domainEntities);
+            
+            return _mapper.Map<IEnumerable<FinancialsYearly>, IEnumerable<FundamentalAnalysisEntity>>(stockData);
         }
     }
 }

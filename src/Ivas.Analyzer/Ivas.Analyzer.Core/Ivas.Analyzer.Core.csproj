@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj" />
     <ProjectReference Include="..\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain.csproj" />
+    <ProjectReference Include="..\Ivas.Analyzer.Model\Ivas.Analyzer.Model.csproj" />
     <ProjectReference Include="..\Ivas.Analyzer.Network\Ivas.Analyzer.Networking.csproj" />
   </ItemGroup>
   <ItemGroup>

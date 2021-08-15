@@ -1,9 +1,9 @@
 using System;
-using Ivas.Analyzer.Domain.Base;
+using Ivas.Analyzer.Model.Base;
 
-namespace Ivas.Analyzer.Domain.Entities
+namespace Ivas.Analyzer.Model.Entities
 {
-    public class PastGrowth : DomainEntity
+    public class PastGrowthEntity : Entity
     {
         /*
          * What do we analyze in Past Growth?
@@ -16,12 +16,16 @@ namespace Ivas.Analyzer.Domain.Entities
          * *** Return on Capital Employed
          * *** Return on Invested Capital
          */
-        public DateTime CalendarDate { get; set; }
         public long EarningsBeforeIncomeTax { get; set; }
+        
         public long NetIncome { get; set; }
+        
         public long TotalAssets { get; set; }
+        
         public long CurrentLiabilities { get; set; }
+        
         public double ReturnOnInvestedCapital { get; set; }
+        
         public double ProfitMargin { get; set; }
         
         /// <summary>

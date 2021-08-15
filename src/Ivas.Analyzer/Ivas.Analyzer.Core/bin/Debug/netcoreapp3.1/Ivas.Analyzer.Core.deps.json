@@ -11,6 +11,7 @@
           "AutoMapper": "10.1.1",
           "Ivas.Analyzer.Common": "1.0.0",
           "Ivas.Analyzer.Domain": "1.0.0",
+          "Ivas.Analyzer.Model": "1.0.0",
           "Ivas.Analyzer.Networking": "1.0.0"
         },
         "runtime": {
@@ -107,8 +108,17 @@
         }
       },
       "Ivas.Analyzer.Domain/1.0.0": {
+        "dependencies": {
+          "Ivas.Analyzer.Common": "1.0.0",
+          "Ivas.Analyzer.Model": "1.0.0"
+        },
         "runtime": {
           "Ivas.Analyzer.Domain.dll": {}
+        }
+      },
+      "Ivas.Analyzer.Model/1.0.0": {
+        "runtime": {
+          "Ivas.Analyzer.Model.dll": {}
         }
       },
       "Ivas.Analyzer.Networking/1.0.0": {
@@ -208,6 +218,11 @@
       "sha512": ""
     },
     "Ivas.Analyzer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ivas.Analyzer.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

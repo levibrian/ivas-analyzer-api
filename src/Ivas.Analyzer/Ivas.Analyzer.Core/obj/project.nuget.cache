@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D3V/xwPDbH++snGnwMiQLlj81YtybQYUTNGqBIv1GpiGd4al/TH5tKgZKNqZTHUCvXNhbx6l+cN7enzaMhWVIg==",
+  "dgSpecHash": "vb/o7jQ1tao48cg2S066/XRBoWoIBJr4ryqjlYdJXPVN1JfCjNbpLeAwQJULPoKp3X8SaHXhLmW7wckqxc57FA==",
   "success": true,
   "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Core/Ivas.Analyzer.Core.csproj",
   "expectedPackageFiles": [

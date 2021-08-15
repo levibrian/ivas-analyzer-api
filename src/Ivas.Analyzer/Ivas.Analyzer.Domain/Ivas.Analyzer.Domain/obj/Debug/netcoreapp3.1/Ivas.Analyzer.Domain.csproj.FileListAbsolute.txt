@@ -16,3 +16,8 @@ D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.csproj.CoreCompileInputs.cache
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.pdb
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Common.dll
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Model.dll
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Common.pdb
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/bin/Debug/netcoreapp3.1/Ivas.Analyzer.Model.pdb
+/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Domain.csproj.CopyComplete

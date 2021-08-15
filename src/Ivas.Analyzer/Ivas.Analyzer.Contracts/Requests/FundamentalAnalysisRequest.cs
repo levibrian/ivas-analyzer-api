@@ -6,5 +6,7 @@ namespace Ivas.Analyzer.Contracts.Requests
     {
         public DateTime FromDate { get; set; }
         public string Ticker { get; set; }
+
+        public int HistoricalYears => DateTime.Now.Year - FromDate.Year;
     }
 }

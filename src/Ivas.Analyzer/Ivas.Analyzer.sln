@@ -29,6 +29,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Injection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Api", "Ivas.Analyzer.Api\Ivas.Analyzer.Api.csproj", "{030ABC80-4FF5-45C3-B725-C82124590C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ivas.Analyzer.Model", "Ivas.Analyzer.Model\Ivas.Analyzer.Model.csproj", "{61C748E7-B2AB-4519-9076-9DC626C9A727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{030ABC80-4FF5-45C3-B725-C82124590C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{030ABC80-4FF5-45C3-B725-C82124590C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{030ABC80-4FF5-45C3-B725-C82124590C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C748E7-B2AB-4519-9076-9DC626C9A727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C748E7-B2AB-4519-9076-9DC626C9A727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C748E7-B2AB-4519-9076-9DC626C9A727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C748E7-B2AB-4519-9076-9DC626C9A727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +81,7 @@ Global
 		{143CC871-13EB-42D4-B579-2C556C685E5D} = {EE2783DF-9F9D-4274-AB27-562B19031DE7}
 		{B0705E2F-DAC5-4258-B2E3-343D654A525D} = {C9694D75-123B-4F3A-B90F-04B9A58AA479}
 		{030ABC80-4FF5-45C3-B725-C82124590C9F} = {42142962-50CB-4A7A-A05E-8A8282525287}
+		{61C748E7-B2AB-4519-9076-9DC626C9A727} = {F53AA190-1C36-4D4C-9EDE-B9C8164C4AAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1EBF4580-FE2E-47BC-B66C-010C537A0FED}

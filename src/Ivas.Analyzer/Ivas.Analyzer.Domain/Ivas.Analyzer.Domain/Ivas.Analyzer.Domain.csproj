@@ -4,4 +4,9 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj" />
+      <ProjectReference Include="..\..\Ivas.Analyzer.Model\Ivas.Analyzer.Model.csproj" />
+    </ItemGroup>
+
 </Project>

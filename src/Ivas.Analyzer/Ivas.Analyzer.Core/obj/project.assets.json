@@ -135,11 +135,25 @@
       "Ivas.Analyzer.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Ivas.Analyzer.Common": "1.0.0",
+          "Ivas.Analyzer.Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Ivas.Analyzer.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/Ivas.Analyzer.Domain.dll": {}
+        }
+      },
+      "Ivas.Analyzer.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ivas.Analyzer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ivas.Analyzer.Model.dll": {}
         }
       },
       "Ivas.Analyzer.Networking/1.0.0": {
@@ -467,6 +481,11 @@
       "path": "../Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj",
       "msbuildProject": "../Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj"
     },
+    "Ivas.Analyzer.Model/1.0.0": {
+      "type": "project",
+      "path": "../Ivas.Analyzer.Model/Ivas.Analyzer.Model.csproj",
+      "msbuildProject": "../Ivas.Analyzer.Model/Ivas.Analyzer.Model.csproj"
+    },
     "Ivas.Analyzer.Networking/1.0.0": {
       "type": "project",
       "path": "../Ivas.Analyzer.Network/Ivas.Analyzer.Networking.csproj",
@@ -478,6 +497,7 @@
       "AutoMapper >= 10.1.1",
       "Ivas.Analyzer.Common >= 1.0.0",
       "Ivas.Analyzer.Domain >= 1.0.0",
+      "Ivas.Analyzer.Model >= 1.0.0",
       "Ivas.Analyzer.Networking >= 1.0.0"
     ]
   },
@@ -511,6 +531,9 @@
             },
             "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj": {
               "projectPath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj"
+            },
+            "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Model/Ivas.Analyzer.Model.csproj": {
+              "projectPath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Model/Ivas.Analyzer.Model.csproj"
             },
             "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/Ivas.Analyzer.Networking.csproj": {
               "projectPath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/Ivas.Analyzer.Networking.csproj"

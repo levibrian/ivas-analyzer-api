@@ -19,9 +19,11 @@ namespace Ivas.Analyzer.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> Get([FromBody] FundamentalAnalysisRequest request)
         {
-            var fundamentalAnalysis = await _analysisService.GetFundamentalAnalysis(request);
+            //var fundamentalAnalysis = await _analysisService.GetFundamentalAnalysis(request);
+
+            var financialTest = await _analysisService.GetSummary(request);
             
-            return Ok(fundamentalAnalysis);
+            return Ok(financialTest);
         }
     }
 }

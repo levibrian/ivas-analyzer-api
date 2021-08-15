@@ -1,9 +1,10 @@
 using System;
-using Ivas.Analyzer.Domain.Base;
+using System.Data.Common;
+using Ivas.Analyzer.Model.Base;
 
-namespace Ivas.Analyzer.Domain.Entities
+namespace Ivas.Analyzer.Model.Entities
 {
-    public class Dividend : DomainEntity
+    public class DividendEntity : Entity
     {
         /*
          Ratios to cover:
@@ -12,8 +13,6 @@ namespace Ivas.Analyzer.Domain.Entities
             Free cash flow to equity
             Net debt to EBITDA
          */
-
-        public DateTime CalendarDate { get; set; }
         public long NetIncome { get; set; }
         public long MarketCap { get; set; }
         public double EarningsPerShare { get; set; }
@@ -21,9 +20,9 @@ namespace Ivas.Analyzer.Domain.Entities
         public double DividendYield { get; set; }
         public long TotalDebt { get; set; }
         public long CashAndEquivalents { get; set; }
-        public long EBITDA { get; set; }
-        
-        
+        public long Ebitda { get; set; }
+
+        public bool AreDividendsPaid => DividendYield > 0;
         
         /// <summary>
         /// The dividend payout ratio provides an indication of how much money a company is returning to shareholders versus how much it is keeping on hand to reinvest in growth, pay off debt, or add to cash reserves (retained earnings). 
@@ -31,9 +30,13 @@ namespace Ivas.Analyzer.Domain.Entities
         /// <returns>A double.</returns>
         public double CalculateDividendPayoutRatio()
         {
-            var retentionRatio = (EarningsPerShare - DividendsPerShare) / EarningsPerShare;
+            var retentionRatio = AreDividendsPaid ? 
+                (EarningsPerShare - DividendsPerShare) / EarningsPerShare : 
+                1.00;
             
-            return 1 - retentionRatio;
+            var dprFormula = 1 - retentionRatio;
+
+            return Math.Round(dprFormula, 3);
         }
 
         /// <summary>
@@ -43,9 +46,11 @@ namespace Ivas.Analyzer.Domain.Entities
         /// <returns>A double.</returns>
         public double CalculateDividendCoverageRatio()
         {
-            var dcrFormula = NetIncome / (MarketCap * DividendYield);
+            var dcrFormula = AreDividendsPaid ? 
+                NetIncome / (MarketCap * DividendYield) : 
+                0.00;
 
-            return dcrFormula;
+            return Math.Round(dcrFormula, 3);
         }
 
         /// <summary>
@@ -56,9 +61,11 @@ namespace Ivas.Analyzer.Domain.Entities
         /// <returns></returns>
         public double CalculateNetDebtToEbitda()
         {
-            var formula = (double) (TotalDebt - CashAndEquivalents) / EBITDA;
+            var formula = Ebitda > 0 ? 
+                (TotalDebt - CashAndEquivalents) / (double) Ebitda : 
+                0.00;
 
-            return formula;
+            return Math.Round(formula, 3);
         }
     }
 }

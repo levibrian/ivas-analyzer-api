@@ -338,6 +338,7 @@
           "AutoMapper": "10.1.1",
           "Ivas.Analyzer.Common": "1.0.0",
           "Ivas.Analyzer.Domain": "1.0.0",
+          "Ivas.Analyzer.Model": "1.0.0",
           "Ivas.Analyzer.Networking": "1.0.0"
         },
         "compile": {
@@ -350,6 +351,10 @@
       "Ivas.Analyzer.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Ivas.Analyzer.Common": "1.0.0",
+          "Ivas.Analyzer.Model": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Ivas.Analyzer.Domain.dll": {}
         },
@@ -370,6 +375,16 @@
         },
         "runtime": {
           "bin/placeholder/Ivas.Analyzer.Injection.dll": {}
+        }
+      },
+      "Ivas.Analyzer.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ivas.Analyzer.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ivas.Analyzer.Model.dll": {}
         }
       },
       "Ivas.Analyzer.Networking/1.0.0": {
@@ -961,6 +976,11 @@
       "type": "project",
       "path": "../Ivas.Analyzer.Injection/Ivas.Analyzer.Injection.csproj",
       "msbuildProject": "../Ivas.Analyzer.Injection/Ivas.Analyzer.Injection.csproj"
+    },
+    "Ivas.Analyzer.Model/1.0.0": {
+      "type": "project",
+      "path": "../Ivas.Analyzer.Model/Ivas.Analyzer.Model.csproj",
+      "msbuildProject": "../Ivas.Analyzer.Model/Ivas.Analyzer.Model.csproj"
     },
     "Ivas.Analyzer.Networking/1.0.0": {
       "type": "project",
