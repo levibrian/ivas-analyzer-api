@@ -1,3 +1,8 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using Ivas.Analyzer.Model.Entities;
+
 namespace Ivas.Analyzer.Domain.Objects
 {
     public class Dividend : Base.Domain
@@ -19,5 +24,24 @@ namespace Ivas.Analyzer.Domain.Objects
         public double DividendCoverageRatio { get; set; }
 
         public double DividendPayoutRatio { get; set; }
+
+        private readonly IEnumerable<DividendEntity> _dividendHistory;
+
+        private readonly DividendEntity _lastFiscalYearDividend;
+        
+        private readonly int _lastFiscalYear;
+        
+        public Dividend(IEnumerable<DividendEntity> dividendHistory)
+        {
+            _dividendHistory = dividendHistory ?? throw new ArgumentNullException(nameof(dividendHistory));
+
+            _lastFiscalYearDividend = dividendHistory
+                .OrderByDescending(x => x.CalendarDate.Year)
+                .FirstOrDefault();
+            
+            _lastFiscalYear = DateTime.Now.Year - 2;
+        }
+        
+        
     }
 }

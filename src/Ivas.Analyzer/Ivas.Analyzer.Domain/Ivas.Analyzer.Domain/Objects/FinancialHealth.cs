@@ -37,7 +37,7 @@ namespace Ivas.Analyzer.Domain.Objects
         public FinancialHealth(IEnumerable<FinancialHealthEntity> financialHistory)
         {
             _financialHistory = financialHistory ?? throw new ArgumentNullException(nameof(financialHistory));
-            _lastFiscalYear = DateTime.Now.Year - 1;
+            _lastFiscalYear = DateTime.Now.Year - 2;
         }
 
         public bool IsDebtToEquitySatisfactory()
