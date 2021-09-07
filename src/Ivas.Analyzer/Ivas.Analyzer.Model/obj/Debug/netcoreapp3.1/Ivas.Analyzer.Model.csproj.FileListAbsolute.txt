@@ -7,3 +7,13 @@
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Model/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Model.csproj.CoreCompileInputs.cache
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Model/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Model.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Model/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Model.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Model.deps.json
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Model.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Model.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.csproj.AssemblyReference.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.AssemblyInfoInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.AssemblyInfo.cs
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.csproj.CoreCompileInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Model\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Model.pdb

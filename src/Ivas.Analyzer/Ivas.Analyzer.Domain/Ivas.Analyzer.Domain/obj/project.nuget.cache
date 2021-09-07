@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "UC/VCnnRcDKm2eFsBF4q/EoXfJPpcmAMdtruNMARu0FMZ+e1AKf8RebGXI8qVIbWqYIgKhiPpIIzQv0I15yMwA==",
+  "dgSpecHash": "lEZGPHSQLmKRyj6I1ocCb6QXfeqdSyDZ3Sryg3/pMyB7WB1emwv0JPVE3zSVRAkaurso3f/DFNGe+MhFL99sNg==",
   "success": true,
-  "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj",
+  "projectFilePath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Domain\\Ivas.Analyzer.Domain\\Ivas.Analyzer.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/levibrian/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/microsoft.aspnetcore.http.features/6.0.0-preview.4.21253.5/microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/microsoft.extensions.primitives/6.0.0-preview.4.21253.7/microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.io.pipelines/6.0.0-preview.4.21253.7/system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0-preview.4.21253.7/system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.4.21253.5\\microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.4.21253.7\\microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.4.21253.7\\system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.4.21253.7\\system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

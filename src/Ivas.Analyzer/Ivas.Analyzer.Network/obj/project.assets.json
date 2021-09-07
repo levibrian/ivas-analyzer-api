@@ -27,32 +27,38 @@
     ]
   },
   "packageFolders": {
-    "/Users/levibrian/.nuget/packages/": {}
+    "C:\\Users\\brale\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/Ivas.Analyzer.Networking.csproj",
+      "projectUniqueName": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Network\\Ivas.Analyzer.Networking.csproj",
       "projectName": "Ivas.Analyzer.Networking",
-      "projectPath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/Ivas.Analyzer.Networking.csproj",
-      "packagesPath": "/Users/levibrian/.nuget/packages/",
-      "outputPath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/obj/",
+      "projectPath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Network\\Ivas.Analyzer.Networking.csproj",
+      "packagesPath": "C:\\Users\\brale\\.nuget\\packages\\",
+      "outputPath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Network\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/levibrian/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brale\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj": {
-              "projectPath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj"
+            "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Contracts\\Ivas.Analyzer.Contracts.csproj": {
+              "projectPath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Contracts\\Ivas.Analyzer.Contracts.csproj"
             }
           }
         }
@@ -81,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

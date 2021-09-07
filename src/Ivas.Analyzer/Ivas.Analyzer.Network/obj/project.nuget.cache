@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ggtS3LSfNrQ4Nfd7W5R3O3qTe5B6oocjPDnYPV1yqpZSVXrchOau++gWvhKN+mzB0behGpy+A7danvEtRbkvvw==",
+  "dgSpecHash": "3KwZprFdhf/UNebBiCeMK1Gdby0SU3q0foefGVj5/aFj5qevO2ykUAo2SOZ0xV3D+hJ0tQLekB7TuzlLRWGy0w==",
   "success": true,
-  "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Network/Ivas.Analyzer.Networking.csproj",
+  "projectFilePath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Network\\Ivas.Analyzer.Networking.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

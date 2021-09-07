@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "vb/o7jQ1tao48cg2S066/XRBoWoIBJr4ryqjlYdJXPVN1JfCjNbpLeAwQJULPoKp3X8SaHXhLmW7wckqxc57FA==",
+  "dgSpecHash": "S4SiMCoSHOsSCRTITD0tcZz/+FXBXa+JLezJBJnAtucs5N5rVC7cDMV1Z2J2Fx19CC/oenBXU9RmJ+HV1A3txw==",
   "success": true,
-  "projectFilePath": "/Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Core/Ivas.Analyzer.Core.csproj",
+  "projectFilePath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Core\\Ivas.Analyzer.Core.csproj",
   "expectedPackageFiles": [
-    "/Users/levibrian/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/microsoft.aspnetcore.http.features/6.0.0-preview.4.21253.5/microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/microsoft.extensions.primitives/6.0.0-preview.4.21253.7/microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.io.pipelines/6.0.0-preview.4.21253.7/system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0-preview.4.21253.7/system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512",
-    "/Users/levibrian/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
+    "C:\\Users\\brale\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\microsoft.aspnetcore.http.features\\6.0.0-preview.4.21253.5\\microsoft.aspnetcore.http.features.6.0.0-preview.4.21253.5.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0-preview.4.21253.7\\microsoft.extensions.primitives.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\system.io.pipelines\\6.0.0-preview.4.21253.7\\system.io.pipelines.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\brale\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.4.21253.7\\system.runtime.compilerservices.unsafe.6.0.0-preview.4.21253.7.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

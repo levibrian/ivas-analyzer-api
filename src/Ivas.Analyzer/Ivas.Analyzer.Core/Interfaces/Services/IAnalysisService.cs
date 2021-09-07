@@ -10,6 +10,6 @@ namespace Ivas.Analyzer.Core.Interfaces.Services
     {
         Task<IEnumerable<FundamentalAnalysisDto>> GetFundamentalAnalysis(FundamentalAnalysisRequest request);
 
-        Task<FinancialHealthDto> GetSummary(FundamentalAnalysisRequest request);
+        Task<FundamentalAnalysisSummaryDto> GetSummary(FundamentalAnalysisRequest request);
     }
 }

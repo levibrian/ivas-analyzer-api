@@ -16,5 +16,15 @@ namespace Ivas.Analyzer.Contracts.Dtos.Analysis
         public double DividendCoverageRatio { get; set; }
         
         public double NetDebtToEbitda { get; set; }
+
+        public bool IsCoverageRatioDesired { get; set; }
+
+        public bool IsDividendYieldNotable { get; set; }
+
+        public bool IsDividendYieldHigh { get; set; }
+        
+        public bool IsDividendStable { get; set; }
+
+        public bool IsDividendGrowing { get; set; }
     }
 }

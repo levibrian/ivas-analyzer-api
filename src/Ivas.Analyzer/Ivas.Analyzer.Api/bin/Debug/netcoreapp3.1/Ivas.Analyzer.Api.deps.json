@@ -2421,7 +2421,7 @@
     "Microsoft.Extensions.Configuration.Binder/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Fls0O54Ielz1DiVYpcmiUpeizN1iKGGI5yAWAoShfmUvMcQ8jAGOK1a+DaflHA5hN9IOKvmSos0yewDYAIY0ZA==",
+      "sha512": "sha512-k9dHRKfmXjeHTAmafyQPB9LFoQbvfLcD7m/OAJ3R1LaIE5C92t12tOkU2Jprp5n1I8Nze0ja9zkBNYxLydxPRA==",
       "path": "microsoft.extensions.configuration.binder/2.1.0",
       "hashPath": "microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512"
     },
@@ -2442,14 +2442,14 @@
     "Microsoft.Extensions.Logging/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kuZbZMMHb7ibzhLdn9/R1+PAAFKntlF10tOw4loB8VuQkHvSrBE6IzW1rhBLsEdmLXOgi2zFbwcXFrxzSM6ybA==",
+      "sha512": "sha512-wHHLrOdhWQg7ApeFf63u2gm+qRxXYQ6RoO+RPRoU96aQLS2ox69VSmQSlpICsybpYQFN2rqVDioVRlE8xNbCyw==",
       "path": "microsoft.extensions.logging/2.1.0",
       "hashPath": "microsoft.extensions.logging.2.1.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging.Abstractions/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GfD2VtvN9z1W+m6pZZe98yh9VWTSdNY2dZSxtca9uFIY6aBI6twvskMvLO/ktClBOTQmAov/7Em+IWFlHepa0A==",
+      "sha512": "sha512-HbLd0SsVNQ7AiB4Fvsjy4juWXqALhYSFih1KLVuc3JqDe7OgOEPX4vx+G/jhvl+e+zat/sBS7yjWmtlQ/6rzCA==",
       "path": "microsoft.extensions.logging.abstractions/2.1.0",
       "hashPath": "microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512"
     },

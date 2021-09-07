@@ -1,6 +1,7 @@
 using AutoMapper;
 using Ivas.Analyzer.Contracts.Dtos.Analysis;
 using Ivas.Analyzer.Contracts.Polygon;
+using Ivas.Analyzer.Domain.Objects;
 using Ivas.Analyzer.Model.Entities;
 
 namespace Ivas.Analyzer.Core.Mappers
@@ -29,14 +30,7 @@ namespace Ivas.Analyzer.Core.Mappers
                 .ForMember(dest => dest.Ebitda, 
                     opts => opts.MapFrom(src => src.EarningsBeforelongerestTaxesDepreciationAmortizationUSD));
 
-            CreateMap<DividendEntity, DividendDto>()
-                .ForMember(dest => dest.DividendCoverageRatio,
-                    opts => opts.MapFrom(src => src.CalculateDividendCoverageRatio()))
-                .ForMember(dest => dest.DividendPayoutRatio,
-                    opts => opts.MapFrom(src => src.CalculateDividendPayoutRatio()))
-                .ForMember(dest => dest.NetDebtToEbitda,
-                    opts => opts.MapFrom(src => src.CalculateNetDebtToEbitda()))
-                .ReverseMap();
+            CreateMap<Dividend, DividendDto>().ReverseMap();
         }
     }
 }

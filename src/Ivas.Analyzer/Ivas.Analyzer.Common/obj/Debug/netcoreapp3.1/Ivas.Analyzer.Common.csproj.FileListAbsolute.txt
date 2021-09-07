@@ -16,3 +16,13 @@ D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Common/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Common.csproj.CoreCompileInputs.cache
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Common/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Common.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Common/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Common.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Common.deps.json
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Common.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Common.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.csproj.AssemblyReference.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.AssemblyInfoInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.AssemblyInfo.cs
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.csproj.CoreCompileInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Common\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Common.pdb

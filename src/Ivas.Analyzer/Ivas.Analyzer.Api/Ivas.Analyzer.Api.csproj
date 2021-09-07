@@ -14,7 +14,4 @@
     <ProjectReference Include="..\Ivas.Analyzer.Core\Ivas.Analyzer.Core.csproj" />
     <ProjectReference Include="..\Ivas.Analyzer.Injection\Ivas.Analyzer.Injection.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Validators" />
-  </ItemGroup>
 </Project>

@@ -27,17 +27,6 @@ namespace Ivas.Analyzer.Core.Services
             _mapper = mapper;
         }
 
-        public async Task<FinancialHealthDto> GetSummary(FundamentalAnalysisRequest request)
-        {
-            var stockFinancials = await GetFinancials(request);
-
-            var financialHealth = new FinancialHealth(stockFinancials.Select(x => x.FinancialHealth));
-
-            var financialHealthDto = _mapper.Map<FinancialHealth, FinancialHealthDto>(financialHealth);
-            
-            return financialHealthDto;
-        }
-        
         public async Task<IEnumerable<FundamentalAnalysisDto>> GetFundamentalAnalysis(FundamentalAnalysisRequest request)
         {
             var domainEntities = await GetFinancials(request);
@@ -58,6 +47,25 @@ namespace Ivas.Analyzer.Core.Services
             }
             
             return _mapper.Map<IEnumerable<FinancialsYearly>, IEnumerable<FundamentalAnalysisEntity>>(stockData);
+        }
+        
+        public async Task<FundamentalAnalysisSummaryDto> GetSummary(FundamentalAnalysisRequest request)
+        {
+            var stockFinancials = (await GetFinancials(request)).ToList();
+
+            var financialHealth = new FinancialHealth(stockFinancials.Select(x => x.FinancialHealth));
+
+            var dividendSummary = new Dividend(stockFinancials.Select(x => x.Dividend));
+            
+            var financialHealthDto = _mapper.Map<FinancialHealth, FinancialHealthDto>(financialHealth);
+            
+            var dividendSummaryDto = _mapper.Map<Dividend, DividendDto>(dividendSummary);
+            
+            return new FundamentalAnalysisSummaryDto()
+            {
+                FinancialHealth = financialHealthDto,
+                Dividend = dividendSummaryDto
+            };
         }
     }
 }

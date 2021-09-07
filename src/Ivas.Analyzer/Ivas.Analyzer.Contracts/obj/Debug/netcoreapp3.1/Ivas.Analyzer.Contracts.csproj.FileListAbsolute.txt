@@ -15,3 +15,13 @@ D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.csproj.CoreCompileInputs.cache
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.dll
 /Users/levibrian/Personal/repos/ivas-analyzer-api/src/Ivas.Analyzer/Ivas.Analyzer.Contracts/obj/Debug/netcoreapp3.1/Ivas.Analyzer.Contracts.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.deps.json
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.csproj.AssemblyReference.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.AssemblyInfoInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.AssemblyInfo.cs
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.csproj.CoreCompileInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Contracts\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.pdb
