@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Ivas.Analyzer.Networking
+build_property.ProjectDir = C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\
