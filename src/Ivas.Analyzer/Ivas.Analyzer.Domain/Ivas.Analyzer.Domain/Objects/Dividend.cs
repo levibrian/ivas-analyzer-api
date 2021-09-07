@@ -12,10 +12,6 @@ namespace Ivas.Analyzer.Domain.Objects
         public const double HighDividendPct = 0.0351;
 
         public const double DesiredCoverageRatio = 0.6;
-        
-        public bool IsDividendStable { get; set; }
-        
-        public bool IsDividendGrowing { get; set; }
 
         public double DividendPerShare { get; set; }
 
@@ -24,6 +20,8 @@ namespace Ivas.Analyzer.Domain.Objects
         public double DividendCoverageRatio { get; set; }
 
         public double DividendPayoutRatio { get; set; }
+
+        public bool IsCoverageRatioDesired => DividendCoverageRatio > DesiredCoverageRatio;
 
         private readonly IEnumerable<DividendEntity> _dividendHistory;
 
@@ -41,7 +39,12 @@ namespace Ivas.Analyzer.Domain.Objects
             
             _lastFiscalYear = DateTime.Now.Year - 2;
         }
+
+        public bool IsDividendStable()
+        {
+            
+        }
         
-        
+        public bool IsDividendGrowing { get; set; }
     }
 }

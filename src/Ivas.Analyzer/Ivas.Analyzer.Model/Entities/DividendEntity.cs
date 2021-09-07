@@ -22,7 +22,7 @@ namespace Ivas.Analyzer.Model.Entities
         public long CashAndEquivalents { get; set; }
         public long Ebitda { get; set; }
 
-        public bool AreDividendsPaid => DividendYield > 0;
+        public bool DoesCompanyPayDividends => DividendYield > 0;
         
         /// <summary>
         /// The dividend payout ratio provides an indication of how much money a company is returning to shareholders versus how much it is keeping on hand to reinvest in growth, pay off debt, or add to cash reserves (retained earnings). 
@@ -30,7 +30,7 @@ namespace Ivas.Analyzer.Model.Entities
         /// <returns>A double.</returns>
         public double CalculateDividendPayoutRatio()
         {
-            var retentionRatio = AreDividendsPaid ? 
+            var retentionRatio = DoesCompanyPayDividends ? 
                 (EarningsPerShare - DividendsPerShare) / EarningsPerShare : 
                 1.00;
             
@@ -46,7 +46,7 @@ namespace Ivas.Analyzer.Model.Entities
         /// <returns>A double.</returns>
         public double CalculateDividendCoverageRatio()
         {
-            var dcrFormula = AreDividendsPaid ? 
+            var dcrFormula = DoesCompanyPayDividends ? 
                 NetIncome / (MarketCap * DividendYield) : 
                 0.00;
 

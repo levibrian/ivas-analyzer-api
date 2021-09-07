@@ -34,10 +34,6 @@ namespace Ivas.Analyzer.Core.Mappers
             CreateMap<FinancialHealth, FinancialHealthDto>()
                 .ForMember(dest => dest.CalendarDate,
                     opts => opts.MapFrom(src => src.LastRecordedFinancialDate));
-            // .ForMember(dest => dest.DebtToEquityRatio,
-            //     opts => opts.MapFrom(src => src.DebtToEquityRatio))
-            // .ForMember(dest => dest.DebtCoverageRatio,
-            //     opts => opts.MapFrom(src => src.DebtCoverageRatio));
         }
     }
 }
