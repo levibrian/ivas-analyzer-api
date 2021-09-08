@@ -37,21 +37,22 @@ namespace Ivas.Analyzer.Core.Services
         // This should be moved to a repository.
         public async Task<IEnumerable<FundamentalAnalysisEntity>> GetFinancials(FundamentalAnalysisRequest request)
         {
-            var stockData = (await _financialsBroker.GetByTicker(request.Ticker))
-                .Take(request.HistoricalYears)
-                .ToList();
+            var stockData = await _financialsBroker.GetByTicker(request.Ticker);
 
             if (!stockData.Any())
             {
                 throw new DomainException(ErrorMessages.FinancialsNotFound);
             }
             
-            return _mapper.Map<IEnumerable<FinancialsYearly>, IEnumerable<FundamentalAnalysisEntity>>(stockData);
+            return _mapper.Map<IEnumerable<FinancialsYearly>, IEnumerable<FundamentalAnalysisEntity>>(stockData
+                .Take(request.HistoricalYears)
+                .ToList());
         }
         
         public async Task<FundamentalAnalysisSummaryDto> GetSummary(FundamentalAnalysisRequest request)
         {
-            var stockFinancials = await GetFinancials(request);
+            var stockFinancials = (await GetFinancials(request))
+                .ToList();
 
             var financialHealth = new FinancialHealth(stockFinancials.Select(x => x.FinancialHealth));
 
