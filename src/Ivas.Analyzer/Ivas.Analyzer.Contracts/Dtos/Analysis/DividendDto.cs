@@ -5,9 +5,9 @@ namespace Ivas.Analyzer.Contracts.Dtos.Analysis
 {
     public class DividendDto : Dto
     {
-        public DateTime CalendarDate { get; set; }
+        public DateTime LastRecordedDate { get; set; }
         
-        public double DividendsPerShare { get; set; }
+        public double DividendPerShare { get; set; }
         
         public double DividendYield { get; set; }
         

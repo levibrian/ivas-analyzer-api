@@ -51,7 +51,7 @@ namespace Ivas.Analyzer.Core.Services
         
         public async Task<FundamentalAnalysisSummaryDto> GetSummary(FundamentalAnalysisRequest request)
         {
-            var stockFinancials = (await GetFinancials(request)).ToList();
+            var stockFinancials = await GetFinancials(request);
 
             var financialHealth = new FinancialHealth(stockFinancials.Select(x => x.FinancialHealth));
 

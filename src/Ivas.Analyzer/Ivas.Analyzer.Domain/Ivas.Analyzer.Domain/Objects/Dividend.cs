@@ -7,7 +7,7 @@ namespace Ivas.Analyzer.Domain.Objects
 {
     public class Dividend : Base.Domain
     {
-        public const double NotableDividendPct = 0.0131;
+        public const double NotableDividendPct = 0.0132;
         
         public const double HighDividendPct = 0.0351;
 
@@ -18,6 +18,7 @@ namespace Ivas.Analyzer.Domain.Objects
         public double DividendPerShare => _lastFiscalYearDividend.DividendsPerShare;
 
         public double DividendYield => _lastFiscalYearDividend.DividendYield;
+        
         public double DividendCoverageRatio => _lastFiscalYearDividend.CalculateDividendCoverageRatio();
 
         public double DividendPayoutRatio => _lastFiscalYearDividend.CalculateDividendPayoutRatio();
@@ -43,29 +44,35 @@ namespace Ivas.Analyzer.Domain.Objects
             _lastFiscalYearDividend = dividendHistory
                 .OrderByDescending(x => x.CalendarDate.Year)
                 .FirstOrDefault();
-            
-            _lastFiscalYear = DateTime.Now.Year - 2;
+
+            _lastFiscalYear = _lastFiscalYearDividend != null ? 
+                _lastFiscalYearDividend.CalendarDate.Year : 
+                DateTime.Now.Year - 2;
         }
 
         public bool IsDividendStable()
         {
-            return _dividendHistory.All(x => x.DividendsPerShare > 0);
+            var isDividendStable = _dividendHistory.Count(x => x.DividendsPerShare > 0);
+            
+            return isDividendStable >= 8;
         }
 
         public bool IsDividendGrowing()
         {
-            var latestDividendEntry = _dividendHistory
-                .OrderBy(x => x.CalendarDate.Year)
+            var orderedDividendHistory = _dividendHistory
+                .OrderByDescending(x => x.CalendarDate.Year)
+                .ToList();
+            
+            var oldestDividendEntry = orderedDividendHistory
                 .LastOrDefault();
             
-            var earliestDividendEntry = _dividendHistory
-                .OrderBy(x => x.CalendarDate.Year)
+            var earliestDividendEntry = orderedDividendHistory
                 .FirstOrDefault();
             
             return 
-                latestDividendEntry != null && 
+                oldestDividendEntry != null && 
                 earliestDividendEntry != null && 
-                earliestDividendEntry.DividendsPerShare > latestDividendEntry.DividendsPerShare;
+                earliestDividendEntry.DividendsPerShare > oldestDividendEntry.DividendsPerShare;
         }
     }
 }
