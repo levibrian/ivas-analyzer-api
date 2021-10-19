@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lEZGPHSQLmKRyj6I1ocCb6QXfeqdSyDZ3Sryg3/pMyB7WB1emwv0JPVE3zSVRAkaurso3f/DFNGe+MhFL99sNg==",
+  "dgSpecHash": "Tu4Wmmsz3Y7+vqKhHspGj0yoS+4a8+x8I6cm5GTyH5hwz9mV6Bt2LcPJ7aGhKQG0RJxtWfeVPDNQaMqSTnecFA==",
   "success": true,
   "projectFilePath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Domain\\Ivas.Analyzer.Domain\\Ivas.Analyzer.Domain.csproj",
   "expectedPackageFiles": [

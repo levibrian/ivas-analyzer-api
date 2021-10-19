@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TRSYszX7IncEr2hEnfIzbuiLqlvSyk1X1fWTa6SUrjifLg9T/Frm+yqDLT9eprPn67v4f1tm14rZ4hA6dP3VoQ==",
+  "dgSpecHash": "SbeOjzCw1ckU9Akbxm8ZqWHSq3IEV5ay1PY+nln7lvbK7eyQPeB/2zJ4z45Qof4ppA1etZhBC0KgeRnspsj0oA==",
   "success": true,
   "projectFilePath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Injection\\Ivas.Analyzer.Injection.csproj",
   "expectedPackageFiles": [

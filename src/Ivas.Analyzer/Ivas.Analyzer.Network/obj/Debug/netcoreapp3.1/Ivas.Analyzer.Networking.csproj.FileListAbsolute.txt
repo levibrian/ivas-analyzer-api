@@ -25,8 +25,6 @@ D:/Users/blevi/Documents/repos/personal/ivas-analyzer-api/src/Ivas.Analyzer/Ivas
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.deps.json
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.pdb
-C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.dll
-C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.csproj.AssemblyReference.cache
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.GeneratedMSBuildEditorConfig.editorconfig
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.AssemblyInfoInputs.cache
@@ -35,3 +33,5 @@ C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\De
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.csproj.CopyComplete
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Network\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.pdb

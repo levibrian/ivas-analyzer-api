@@ -102,11 +102,6 @@
           "Ivas.Analyzer.Common.dll": {}
         }
       },
-      "Ivas.Analyzer.Contracts/1.0.0": {
-        "runtime": {
-          "Ivas.Analyzer.Contracts.dll": {}
-        }
-      },
       "Ivas.Analyzer.Domain/1.0.0": {
         "dependencies": {
           "Ivas.Analyzer.Common": "1.0.0",
@@ -116,6 +111,11 @@
           "Ivas.Analyzer.Domain.dll": {}
         }
       },
+      "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
+        "runtime": {
+          "Ivas.Analyzer.Domain.Abstractions.dll": {}
+        }
+      },
       "Ivas.Analyzer.Model/1.0.0": {
         "runtime": {
           "Ivas.Analyzer.Model.dll": {}
@@ -123,7 +123,7 @@
       },
       "Ivas.Analyzer.Networking/1.0.0": {
         "dependencies": {
-          "Ivas.Analyzer.Contracts": "1.0.0"
+          "Ivas.Analyzer.Domain.Abstractions": "1.0.0"
         },
         "runtime": {
           "Ivas.Analyzer.Networking.dll": {}
@@ -212,12 +212,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ivas.Analyzer.Contracts/1.0.0": {
+    "Ivas.Analyzer.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Ivas.Analyzer.Domain/1.0.0": {
+    "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

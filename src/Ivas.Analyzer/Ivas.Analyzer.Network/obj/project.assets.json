@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Ivas.Analyzer.Contracts/1.0.0": {
+      "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/Ivas.Analyzer.Contracts.dll": {}
+          "bin/placeholder/Ivas.Analyzer.Domain.Abstractions.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Ivas.Analyzer.Contracts.dll": {}
+          "bin/placeholder/Ivas.Analyzer.Domain.Abstractions.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Ivas.Analyzer.Contracts/1.0.0": {
+    "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
       "type": "project",
-      "path": "../Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj",
-      "msbuildProject": "../Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj"
+      "path": "../Ivas.Analyzer.Domain.Abstractions/Ivas.Analyzer.Domain.Abstractions.csproj",
+      "msbuildProject": "../Ivas.Analyzer.Domain.Abstractions/Ivas.Analyzer.Domain.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Ivas.Analyzer.Contracts >= 1.0.0"
+      "Ivas.Analyzer.Domain.Abstractions >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -57,8 +57,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Contracts\\Ivas.Analyzer.Contracts.csproj": {
-              "projectPath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Contracts\\Ivas.Analyzer.Contracts.csproj"
+            "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Domain.Abstractions\\Ivas.Analyzer.Domain.Abstractions.csproj": {
+              "projectPath": "C:\\git\\personal\\ivas-analyzer-api\\src\\Ivas.Analyzer\\Ivas.Analyzer.Domain.Abstractions\\Ivas.Analyzer.Domain.Abstractions.csproj"
             }
           }
         }
@@ -87,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

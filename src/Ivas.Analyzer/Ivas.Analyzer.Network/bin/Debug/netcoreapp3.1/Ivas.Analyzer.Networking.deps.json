@@ -8,15 +8,15 @@
     ".NETCoreApp,Version=v3.1": {
       "Ivas.Analyzer.Networking/1.0.0": {
         "dependencies": {
-          "Ivas.Analyzer.Contracts": "1.0.0"
+          "Ivas.Analyzer.Domain.Abstractions": "1.0.0"
         },
         "runtime": {
           "Ivas.Analyzer.Networking.dll": {}
         }
       },
-      "Ivas.Analyzer.Contracts/1.0.0": {
+      "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
         "runtime": {
-          "Ivas.Analyzer.Contracts.dll": {}
+          "Ivas.Analyzer.Domain.Abstractions.dll": {}
         }
       }
     }
@@ -27,7 +27,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ivas.Analyzer.Contracts/1.0.0": {
+    "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

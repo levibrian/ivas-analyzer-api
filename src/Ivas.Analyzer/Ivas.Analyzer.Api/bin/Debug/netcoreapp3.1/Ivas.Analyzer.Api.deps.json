@@ -601,14 +601,6 @@
           "Ivas.Analyzer.Common.dll": {}
         }
       },
-      "Ivas.Analyzer.Contracts/1.0.0": {
-        "runtime": {
-          "Ivas.Analyzer.Contracts.dll": {}
-        },
-        "compile": {
-          "Ivas.Analyzer.Contracts.dll": {}
-        }
-      },
       "Ivas.Analyzer.Core/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
@@ -636,6 +628,14 @@
           "Ivas.Analyzer.Domain.dll": {}
         }
       },
+      "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
+        "runtime": {
+          "Ivas.Analyzer.Domain.Abstractions.dll": {}
+        },
+        "compile": {
+          "Ivas.Analyzer.Domain.Abstractions.dll": {}
+        }
+      },
       "Ivas.Analyzer.Injection/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
@@ -659,7 +659,7 @@
       },
       "Ivas.Analyzer.Networking/1.0.0": {
         "dependencies": {
-          "Ivas.Analyzer.Contracts": "1.0.0"
+          "Ivas.Analyzer.Domain.Abstractions": "1.0.0"
         },
         "runtime": {
           "Ivas.Analyzer.Networking.dll": {}
@@ -2507,17 +2507,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Ivas.Analyzer.Contracts/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Ivas.Analyzer.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Ivas.Analyzer.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

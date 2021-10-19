@@ -1,0 +1,10 @@
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.deps.json
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.pdb
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.csproj.AssemblyReference.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.AssemblyInfoInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.AssemblyInfo.cs
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.csproj.CoreCompileInputs.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Domain.Abstractions\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.pdb

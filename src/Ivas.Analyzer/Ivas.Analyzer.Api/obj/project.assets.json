@@ -321,16 +321,6 @@
           "bin/placeholder/Ivas.Analyzer.Common.dll": {}
         }
       },
-      "Ivas.Analyzer.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Ivas.Analyzer.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Ivas.Analyzer.Contracts.dll": {}
-        }
-      },
       "Ivas.Analyzer.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -362,6 +352,16 @@
           "bin/placeholder/Ivas.Analyzer.Domain.dll": {}
         }
       },
+      "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ivas.Analyzer.Domain.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ivas.Analyzer.Domain.Abstractions.dll": {}
+        }
+      },
       "Ivas.Analyzer.Injection/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -391,7 +391,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "Ivas.Analyzer.Contracts": "1.0.0"
+          "Ivas.Analyzer.Domain.Abstractions": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Ivas.Analyzer.Networking.dll": {}
@@ -957,11 +957,6 @@
       "path": "../Ivas.Analyzer.Common/Ivas.Analyzer.Common.csproj",
       "msbuildProject": "../Ivas.Analyzer.Common/Ivas.Analyzer.Common.csproj"
     },
-    "Ivas.Analyzer.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj",
-      "msbuildProject": "../Ivas.Analyzer.Contracts/Ivas.Analyzer.Contracts.csproj"
-    },
     "Ivas.Analyzer.Core/1.0.0": {
       "type": "project",
       "path": "../Ivas.Analyzer.Core/Ivas.Analyzer.Core.csproj",
@@ -971,6 +966,11 @@
       "type": "project",
       "path": "../Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj",
       "msbuildProject": "../Ivas.Analyzer.Domain/Ivas.Analyzer.Domain/Ivas.Analyzer.Domain.csproj"
+    },
+    "Ivas.Analyzer.Domain.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../Ivas.Analyzer.Domain.Abstractions/Ivas.Analyzer.Domain.Abstractions.csproj",
+      "msbuildProject": "../Ivas.Analyzer.Domain.Abstractions/Ivas.Analyzer.Domain.Abstractions.csproj"
     },
     "Ivas.Analyzer.Injection/1.0.0": {
       "type": "project",
@@ -1073,7 +1073,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

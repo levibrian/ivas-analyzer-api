@@ -107,7 +107,6 @@ C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Common.dll
-C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Core.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Injection.dll
@@ -116,7 +115,6 @@ C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Core.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Injection.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Common.pdb
-C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Contracts.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Model.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Networking.pdb
@@ -134,3 +132,5 @@ C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\obj\Debug\
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Api.dll
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Api.pdb
 C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\obj\Debug\netcoreapp3.1\Ivas.Analyzer.Api.genruntimeconfig.cache
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.dll
+C:\git\personal\ivas-analyzer-api\src\Ivas.Analyzer\Ivas.Analyzer.Api\bin\Debug\netcoreapp3.1\Ivas.Analyzer.Domain.Abstractions.pdb
