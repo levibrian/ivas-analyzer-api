@@ -3,3 +3,5 @@
 *.AssemblyInfo
 *.csproj.FileListAbsolute
 *.dll
+bin/    # ignore bin directory
+*.obj   # ignore any files with .obj postfix
