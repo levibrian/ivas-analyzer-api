@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Networking", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Domain", "Ivas.Analyzer.Domain\Ivas.Analyzer.Domain\Ivas.Analyzer.Domain.csproj", "{85A4EEC1-8932-457A-BA02-AC8A5D89FAEC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Contracts", "Ivas.Analyzer.Contracts\Ivas.Analyzer.Contracts.csproj", "{68EB935D-B5D8-4048-BC18-E2B1DFEBE349}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Domain.Abstractions", "Ivas.Analyzer.Domain.Abstractions\Ivas.Analyzer.Domain.Abstractions.csproj", "{68EB935D-B5D8-4048-BC18-E2B1DFEBE349}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ivas.Analyzer.Common", "Ivas.Analyzer.Common\Ivas.Analyzer.Common.csproj", "{143CC871-13EB-42D4-B579-2C556C685E5D}"
 EndProject

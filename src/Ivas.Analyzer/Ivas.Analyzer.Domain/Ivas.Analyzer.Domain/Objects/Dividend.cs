@@ -45,6 +45,11 @@ namespace Ivas.Analyzer.Domain.Objects
                 .OrderByDescending(x => x.CalendarDate.Year)
                 .FirstOrDefault();
 
+            if (_lastFiscalYearDividend == null)
+            {
+                throw new ArgumentNullException(nameof(_lastFiscalYearDividend));
+            }
+            
             _lastFiscalYear = _lastFiscalYearDividend != null ? 
                 _lastFiscalYearDividend.CalendarDate.Year : 
                 DateTime.Now.Year - 2;

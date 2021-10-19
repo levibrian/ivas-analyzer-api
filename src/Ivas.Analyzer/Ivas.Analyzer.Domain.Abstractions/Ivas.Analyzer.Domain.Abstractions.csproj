@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ivas.Analyzer.Contracts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Polygon\" />
+    <None Remove="Polygon\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Polygon\" />
+    <Folder Include="Polygon\Base\" />
+  </ItemGroup>
+</Project>

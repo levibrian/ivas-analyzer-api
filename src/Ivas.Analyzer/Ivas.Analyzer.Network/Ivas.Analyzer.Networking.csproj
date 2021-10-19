@@ -23,6 +23,6 @@
     <Folder Include="Enums\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ivas.Analyzer.Contracts\Ivas.Analyzer.Contracts.csproj" />
+    <ProjectReference Include="..\Ivas.Analyzer.Domain.Abstractions\Ivas.Analyzer.Domain.Abstractions.csproj" />
   </ItemGroup>
 </Project>
