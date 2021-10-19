@@ -4,4 +4,5 @@
 *.csproj.FileListAbsolute
 *.dll
 bin/    # ignore bin directory
+obj/    # ignore obj directory
 *.obj   # ignore any files with .obj postfix
