@@ -1,1 +1,5 @@
 *.cache
+*.NETCoreApp
+*.AssemblyInfo
+*.csproj.FileListAbsolute
+*.dll
