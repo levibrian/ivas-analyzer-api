@@ -1,11 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Ivas.Analyzer.Domain.Base;
 using Ivas.Analyzer.Model.Entities;
 
 namespace Ivas.Analyzer.Domain.Objects
 {
-    public class Dividend : Base.Domain
+    public class Dividend : DomainEntity
     {
         public const double NotableDividendPct = 0.0132;
         

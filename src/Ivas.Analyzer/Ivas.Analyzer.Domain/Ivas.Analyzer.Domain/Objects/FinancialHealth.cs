@@ -2,13 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Ivas.Analyzer.Common.Extensions;
+using Ivas.Analyzer.Domain.Base;
 using Ivas.Analyzer.Domain.Enums;
 using Ivas.Analyzer.Model.Entities;
 using Microsoft.VisualBasic;
 
 namespace Ivas.Analyzer.Domain.Objects
 {
-    public class FinancialHealth : Base.Domain
+    public class FinancialHealth : DomainEntity
     {
         private const double MaximumDebtLevel = 0.40;
 
